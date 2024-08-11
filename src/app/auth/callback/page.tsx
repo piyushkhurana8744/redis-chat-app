@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation'
 
 
 
-const page = async() => {
+const Page = async() => {
 
    const router = useRouter()
 
@@ -43,4 +43,4 @@ const page = async() => {
   
 }
 
-export default page
+export default Page

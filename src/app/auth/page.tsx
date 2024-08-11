@@ -10,7 +10,7 @@ import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server'
 import { redirect } from 'next/navigation'
 
 
-const page = async() => {
+const Page = async() => {
 
   const {isAuthenticated} = getKindeServerSession()
 
@@ -59,4 +59,4 @@ const page = async() => {
   )
 }
 
-export default page
+export default Page
